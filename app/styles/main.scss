@@ -1,0 +1,26 @@
+$icon-font-path: '../fonts/';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900');
+
+@import "variables";
+
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "darkly";
+body {
+  padding: 5vw;
+}
+
+.temp {
+  max-width: 360px;
+}
+
+@media (max-width: $screen-sm) {
+  //a
+}
+
+h1 {
+  text-transform: uppercase;
+}
