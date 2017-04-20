@@ -11,8 +11,17 @@ $icon-font-path: '../fonts/';
 @import "darkly";
 body {
   padding: 5vw;
+  // background-image: url(../images/elem.svg);
+  // background-position: bottom right;
+  // background-repeat: no-repeat;
+  // background-size: 300%;
+  // height: 100vh;
+  background: $brand-success;
 }
 
+* {
+  // font-size: 120%!important;
+}
 .temp {
   max-width: 360px;
 }
@@ -23,4 +32,18 @@ body {
 
 h1 {
   text-transform: uppercase;
+}
+.text-muted {
+  color: rgba($gray-base, 0.5);
+}
+
+.links {
+  li > a {
+    color: rgba($gray-base, 0.5);
+    text-decoration: none;
+    transition: all 0.25s ease;
+    &:hover {
+      color: $gray-base;
+    }
+  }
 }
