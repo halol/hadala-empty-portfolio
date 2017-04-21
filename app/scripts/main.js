@@ -1,2 +1,2 @@
-console.log('Sometimes I\'m doing front-end development');
+console.log('I do front-end as well');
 console.log('🍺🍺🍺');
